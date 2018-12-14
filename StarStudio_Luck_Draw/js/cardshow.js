@@ -280,10 +280,10 @@
             }
 
             // 卡片数过少返回
-            if (self.totalNum < 4) {
-                alert('The number is too small!');
-                return;
-            }
+            // if (self.totalNum < 4) {
+            //     alert('The number is too small!');
+            //     return;
+            // }
 
             // 避免开始按钮连击
             if (!self.isStarting) {
